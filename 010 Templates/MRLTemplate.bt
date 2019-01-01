@@ -32,7 +32,7 @@ struct Header{
     uint64 materialOffset<format=hex>;
 };
 struct Texture{
-    uint unkn1<format=hex>;
+    uint fileTypeCode<format=hex>;
     byte unkn2[12];
     char path[256];
 };
